@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+xmlns:views="clr-namespace:MyRentDue.Views"
+x:Class="MyRentDue.AppShell">
+
+
+    <TabBar>
+        <Tab Title="Tenants">
+            <ShellContent Title="Tenants" ContentTemplate="{DataTemplate views:TenantPage}" />
+        </Tab>
+        <Tab Title="Transactions">
+            <ShellContent Title="Transactions" ContentTemplate="{DataTemplate views:TransactionsPage}" />
+        </Tab>
+    </TabBar>
+</Shell>

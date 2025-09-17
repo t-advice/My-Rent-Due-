@@ -1,0 +1,66 @@
+﻿# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.ide/
+*.pidb
+*.svclog
+*.pdb
+*.mdb
+
+# .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Generated files
+Generated_Code/
+
+# .NET MAUI specific
+Platforms/Android/bin/
+Platforms/Android/obj/
+Platforms/iOS/bin/
+Platforms/iOS/obj/
+Platforms/MacCatalyst/bin/
+Platforms/MacCatalyst/obj/
+Platforms/Tizen/bin/
+Platforms/Tizen/obj/
+Resources/Raw/*
+
+# VS Code
+.vscode/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+*.props
+*.targets
+*.dll
+*.exe
+*.cache
+*.config
+.nuget/
+packages/
+*.PackageReference
+
+# Backup & temp
+*.bak
+*.tmp
+*.temp
+*.swp
+*.DS_Store
+Thumbs.db

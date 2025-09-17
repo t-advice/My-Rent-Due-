@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyRentDue.Views.TenantPage"
+             Title="Tenants">
+
+    <Grid RowDefinitions="Auto,*" Padding="12">
+
+        <!-- Header Frame -->
+        <Frame Grid.Row="0" Padding="16" CornerRadius="18" HasShadow="True">
+            <Grid ColumnDefinitions="*,Auto" RowDefinitions="Auto">
+                <VerticalStackLayout Spacing="2">
+                    <Label Text="My Rent Due" FontSize="22" FontAttributes="Bold"/>
+                    <Label Text="Manage tenants &amp; payments" Opacity="0.7"/>
+                </VerticalStackLayout>
+
+                <Button Grid.Column="1"
+                        Text="Add Tenant"
+                        Clicked="OnAddTenantClicked"
+                        BackgroundColor="LawnGreen"
+                        TextColor="Black"
+                        FontAttributes="Bold"
+                        CornerRadius="3"/>
+            </Grid>
+        </Frame>
+
+        <!-- Tenants List -->
+        <CollectionView x:Name="TenantsList" Grid.Row="1" Margin="0,12,0,0" SelectionMode="None">
+            <CollectionView.EmptyView>
+                <VerticalStackLayout Padding="24" Spacing="8" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="No tenants yet" FontSize="18"/>
+                    <Label Text="Tap 'Add Tenant' to create one." Opacity="0.7"/>
+                </VerticalStackLayout>
+            </CollectionView.EmptyView>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="16" Margin="0,6" CornerRadius="16" HasShadow="True">
+                        <Grid ColumnDefinitions="*,Auto" RowDefinitions="Auto,Auto">
+                            <Label Grid.Row="0" Text="{Binding FullName}" FontAttributes="Bold" FontSize="18"/>
+                            <Label Grid.Row="1" Text="{Binding Email}" Opacity="0.7"/>
+
+                            <VerticalStackLayout Grid.Column="1" Spacing="2" HorizontalOptions="End" VerticalOptions="Center">
+                                <Label Text="{Binding RentDisplay}"/>
+                                <Frame Padding="6,2" CornerRadius="12" HasShadow="False" BackgroundColor="{DynamicResource SecondaryColor}">
+                                    <Label Text="{Binding PaymentStatus}" />
+                                </Frame>
+                            </VerticalStackLayout>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </Grid>
+</ContentPage>
+
