@@ -29,10 +29,14 @@
 
            
             <Frame Padding="12" CornerRadius="12" HasShadow="True">
-                <Entry x:Name="PhoneEntry" Placeholder="Cell Number" Keyboard="Telephone"/>
+                <Entry x:
+                       Name="PhoneEntry" Placeholder="Cell Number" Keyboard="Telephone"/>
+            </Frame>
+            <Frame Padding="12" CornerRadius="12" HasShadow="True">
+                <Entry x:Name="AddressEntry" Placeholder="Address"/>
             </Frame>
 
-            
+
             <Frame Padding="12" CornerRadius="12" HasShadow="True">
                 <Entry x:Name="RentEntry" Placeholder="Rent per Month (numbers only)" Keyboard="Numeric"/>
             </Frame>

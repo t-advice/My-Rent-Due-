@@ -35,8 +35,12 @@ public partial class AddTenantPage : ContentPage
         // Create tenant object
         var tenant = new Tenant
         {
+
+            
+
             FirstName = FirstNameEntry.Text.Trim(),
             LastName = LastNameEntry.Text.Trim(),
+
             Email = EmailEntry.Text.Trim(),
             Phone = PhoneEntry.Text?.Trim() ?? string.Empty,
             RentPerMonth = rent
