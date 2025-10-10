@@ -42,9 +42,7 @@
 
                             <VerticalStackLayout Grid.Column="1" Spacing="2" HorizontalOptions="End" VerticalOptions="Center">
                                 <Label Text="{Binding RentDisplay}"/>
-                                <Frame Padding="6,2" CornerRadius="12" HasShadow="False" BackgroundColor="{DynamicResource SecondaryColor}">
-                                    <Label Text="{Binding PaymentStatus}" />
-                                </Frame>
+                                
                             </VerticalStackLayout>
                         </Grid>
                     </Frame>

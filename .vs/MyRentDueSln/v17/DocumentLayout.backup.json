@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\TASHLEARNING\\MyRentDueSln\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|c:\\tashlearning\\myrentduesln\\myrentdue\\views\\tenantpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|solutionrelative:myrentdue\\views\\tenantpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|c:\\tashlearning\\myrentduesln\\myrentdue\\views\\addtenantpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|solutionrelative:myrentdue\\views\\addtenantpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|c:\\tashlearning\\myrentduesln\\myrentdue\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|solutionrelative:myrentdue\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|c:\\tashlearning\\myrentduesln\\myrentdue\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|solutionrelative:myrentdue\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|c:\\tashlearning\\myrentduesln\\myrentdue\\views\\tenantpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|solutionrelative:myrentdue\\views\\tenantpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|c:\\tashlearning\\myrentduesln\\myrentdue\\views\\addtenantpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|solutionrelative:myrentdue\\views\\addtenantpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|c:\\tashlearning\\myrentduesln\\myrentdue\\views\\transactionspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|solutionrelative:myrentdue\\views\\transactionspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|c:\\tashlearning\\myrentduesln\\myrentdue\\views\\tenantpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|solutionrelative:myrentdue\\views\\tenantpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|c:\\tashlearning\\myrentduesln\\myrentdue\\views\\addtransactionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|solutionrelative:myrentdue\\views\\addtransactionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|c:\\tashlearning\\myrentduesln\\myrentdue\\viewmodels\\tenantviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|solutionrelative:myrentdue\\viewmodels\\tenantviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|c:\\tashlearning\\myrentduesln\\myrentdue\\models\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|solutionrelative:myrentdue\\models\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|c:\\tashlearning\\myrentduesln\\myrentdue\\models\\tenantview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,20 +51,8 @@
       "RelativeMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|solutionrelative:myrentdue\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|c:\\tashlearning\\myrentduesln\\myrentdue\\views\\transactionspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|solutionrelative:myrentdue\\views\\transactionspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|c:\\tashlearning\\myrentduesln\\myrentdue\\views\\addtransactionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|solutionrelative:myrentdue\\views\\addtransactionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|c:\\tashlearning\\myrentduesln\\myrentdue\\views\\transactionspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|solutionrelative:myrentdue\\views\\transactionspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|c:\\tashlearning\\myrentduesln\\myrentdue\\views\\addtenantpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|solutionrelative:myrentdue\\views\\addtenantpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|c:\\tashlearning\\myrentduesln\\myrentdue\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -45,14 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|c:\\tashlearning\\myrentduesln\\myrentdue\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|solutionrelative:myrentdue\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|c:\\tashlearning\\myrentduesln\\myrentdue\\views\\addtenantpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|solutionrelative:myrentdue\\views\\addtenantpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|c:\\tashlearning\\myrentduesln\\myrentdue\\models\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|solutionrelative:myrentdue\\models\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8404CA3-994B-4416-8EAD-410738E562D0}|MyRentDue\\MyRentDue.csproj|c:\\tashlearning\\myrentduesln\\myrentdue\\services\\myrentduedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -93,88 +101,121 @@
               "Name": "ST:0:0:{53d10d51-d2d8-3452-ab88-12f687ed0782}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "TenantPage.xaml.cs",
               "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Views\\TenantPage.xaml.cs",
               "RelativeDocumentMoniker": "MyRentDue\\Views\\TenantPage.xaml.cs",
-              "ToolTip": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Views\\TenantPage.xaml.cs*",
-              "RelativeToolTip": "MyRentDue\\Views\\TenantPage.xaml.cs*",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwBsAAAA1AAAAAAAAAA==",
+              "ToolTip": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Views\\TenantPage.xaml.cs",
+              "RelativeToolTip": "MyRentDue\\Views\\TenantPage.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T08:41:38.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T08:41:38.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TransactionsPage.xaml.cs",
+              "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Views\\TransactionsPage.xaml.cs",
+              "RelativeDocumentMoniker": "MyRentDue\\Views\\TransactionsPage.xaml.cs",
+              "ToolTip": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Views\\TransactionsPage.xaml.cs",
+              "RelativeToolTip": "MyRentDue\\Views\\TransactionsPage.xaml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T08:45:13.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddTenantPage.xaml",
+              "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Views\\AddTenantPage.xaml",
+              "RelativeDocumentMoniker": "MyRentDue\\Views\\AddTenantPage.xaml",
+              "ToolTip": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Views\\AddTenantPage.xaml",
+              "RelativeToolTip": "MyRentDue\\Views\\AddTenantPage.xaml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-29T08:05:28.112Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TenantView.cs",
-              "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Models\\TenantView.cs",
-              "RelativeDocumentMoniker": "MyRentDue\\Models\\TenantView.cs",
-              "ToolTip": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Models\\TenantView.cs",
-              "RelativeToolTip": "MyRentDue\\Models\\TenantView.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T09:11:55.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TenantViewModel.cs",
-              "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\ViewModels\\TenantViewModel.cs",
-              "RelativeDocumentMoniker": "MyRentDue\\ViewModels\\TenantViewModel.cs",
-              "ToolTip": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\ViewModels\\TenantViewModel.cs",
-              "RelativeToolTip": "MyRentDue\\ViewModels\\TenantViewModel.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T10:04:51.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "TenantPage.xaml",
               "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Views\\TenantPage.xaml",
               "RelativeDocumentMoniker": "MyRentDue\\Views\\TenantPage.xaml",
               "ToolTip": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Views\\TenantPage.xaml",
               "RelativeToolTip": "MyRentDue\\Views\\TenantPage.xaml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-29T08:05:13.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T08:05:13.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AddTenantPage.xaml.cs",
-              "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Views\\AddTenantPage.xaml.cs",
-              "RelativeDocumentMoniker": "MyRentDue\\Views\\AddTenantPage.xaml.cs",
-              "ToolTip": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Views\\AddTenantPage.xaml.cs",
-              "RelativeToolTip": "MyRentDue\\Views\\AddTenantPage.xaml.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAYwAQAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T09:50:24.539Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AddTransactionPage.xaml.cs",
               "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Views\\AddTransactionPage.xaml.cs",
               "RelativeDocumentMoniker": "MyRentDue\\Views\\AddTransactionPage.xaml.cs",
               "ToolTip": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Views\\AddTransactionPage.xaml.cs",
               "RelativeToolTip": "MyRentDue\\Views\\AddTransactionPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-29T08:47:43.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "AddTenantPage.xaml.cs",
+              "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Views\\AddTenantPage.xaml.cs",
+              "RelativeDocumentMoniker": "MyRentDue\\Views\\AddTenantPage.xaml.cs",
+              "ToolTip": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Views\\AddTenantPage.xaml.cs",
+              "RelativeToolTip": "MyRentDue\\Views\\AddTenantPage.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T09:50:24.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Readme.md",
+              "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Readme.md",
+              "RelativeDocumentMoniker": "MyRentDue\\Readme.md",
+              "ToolTip": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Readme.md",
+              "RelativeToolTip": "MyRentDue\\Readme.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-09-17T08:22:28.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TenantViewModel.cs",
+              "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\ViewModels\\TenantViewModel.cs",
+              "RelativeDocumentMoniker": "MyRentDue\\ViewModels\\TenantViewModel.cs",
+              "ToolTip": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\ViewModels\\TenantViewModel.cs",
+              "RelativeToolTip": "MyRentDue\\ViewModels\\TenantViewModel.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA3wBQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T10:04:51.565Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\.gitignore",
+              "RelativeDocumentMoniker": "MyRentDue\\.gitignore",
+              "ToolTip": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\.gitignore",
+              "RelativeToolTip": "MyRentDue\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG/SURBVDhPrZRNTgIxFMerDIaEhHgU97JxwUKGGaNeQJdyCY0XUBDWGhg4AB\u002BuvQk7OQCRFTP1fXWmMxUMCT94ee177eu/LVQdFK31kTSJ0WgEIa0SMJ2A6QTHcF9iicQqlYpa/6zv2\u002B2HD5nuEkWR/l4udRzHZBtjGzFor1YrPR6P9WKx0MNhpN96vTuZThyLJ1AJLK/iJFFxjBanBsXIozqkWq2qev1c1Wq19063e0ZBwBNP4JaQ6WRC/i8ajQb5wWBAvnxyghpOqQPkC8L5IEEQKjgxaqOTFsCd65tb6nmlkur1\u002BxwXCgX58KfT7QptwvCK52wrSLcJvtUKOABkQ6HFXwbGsmMRBkchzpjNphLZDSrEn5G1qnsp\u002BPEtheloXouRnXDTTjhb5tXmeyg0IgzuliHp\u002By0OANbiOCDXp1IYo3mMUxBT8/mMA/8QhGH6ZzC4Zwi5ZqoQB9M3h62I/\u002B/SAQpniBmtPvdQyGeYUdgyX8pl05eIBSxmTzQYEYbc42AuJQWLGJNQEcrJG4A4BTHneSW2sqfKOyybkxXMPbAvrx3IsyLzkPJFmUcWYtDntjG6lIvnp8cvKXNIlPoFvstpJRlQPIAAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-09-17T08:26:54.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "MyRentDue\\AppShell.xaml.cs",
@@ -182,12 +223,11 @@
               "RelativeToolTip": "MyRentDue\\AppShell.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T08:38:15.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T08:38:15.71Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\AppShell.xaml",
               "RelativeDocumentMoniker": "MyRentDue\\AppShell.xaml",
@@ -199,7 +239,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
+              "Title": "Tenant.cs",
+              "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Models\\Tenant.cs",
+              "RelativeDocumentMoniker": "MyRentDue\\Models\\Tenant.cs",
+              "ToolTip": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Models\\Tenant.cs",
+              "RelativeToolTip": "MyRentDue\\Models\\Tenant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T07:58:32.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TenantView.cs",
+              "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Models\\TenantView.cs",
+              "RelativeDocumentMoniker": "MyRentDue\\Models\\TenantView.cs",
+              "ToolTip": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Models\\TenantView.cs",
+              "RelativeToolTip": "MyRentDue\\Models\\TenantView.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T09:11:55.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "TransactionsPage.xaml",
               "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Views\\TransactionsPage.xaml",
               "RelativeDocumentMoniker": "MyRentDue\\Views\\TransactionsPage.xaml",
@@ -211,19 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TransactionsPage.xaml.cs",
-              "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Views\\TransactionsPage.xaml.cs",
-              "RelativeDocumentMoniker": "MyRentDue\\Views\\TransactionsPage.xaml.cs",
-              "ToolTip": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Views\\TransactionsPage.xaml.cs",
-              "RelativeToolTip": "MyRentDue\\Views\\TransactionsPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T08:45:13.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\App.xaml.cs",
               "RelativeDocumentMoniker": "MyRentDue\\App.xaml.cs",
@@ -235,31 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AddTenantPage.xaml",
-              "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Views\\AddTenantPage.xaml",
-              "RelativeDocumentMoniker": "MyRentDue\\Views\\AddTenantPage.xaml",
-              "ToolTip": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Views\\AddTenantPage.xaml",
-              "RelativeToolTip": "MyRentDue\\Views\\AddTenantPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-29T08:05:28.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Tenant.cs",
-              "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Models\\Tenant.cs",
-              "RelativeDocumentMoniker": "MyRentDue\\Models\\Tenant.cs",
-              "ToolTip": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Models\\Tenant.cs",
-              "RelativeToolTip": "MyRentDue\\Models\\Tenant.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T07:58:32.864Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "MyRentDueDatabase.cs",
               "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Services\\MyRentDueDatabase.cs",
               "RelativeDocumentMoniker": "MyRentDue\\Services\\MyRentDueDatabase.cs",
@@ -271,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "PaymentTransaction.cs",
               "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Models\\PaymentTransaction.cs",
               "RelativeDocumentMoniker": "MyRentDue\\Models\\PaymentTransaction.cs",
@@ -283,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "TransactionView.cs",
               "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Models\\TransactionView.cs",
               "RelativeDocumentMoniker": "MyRentDue\\Models\\TransactionView.cs",
@@ -295,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "AddTransactionPage.xaml",
               "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\Views\\AddTransactionPage.xaml",
               "RelativeDocumentMoniker": "MyRentDue\\Views\\AddTransactionPage.xaml",
@@ -307,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\TASHLEARNING\\MyRentDueSln\\MyRentDue\\App.xaml",
               "RelativeDocumentMoniker": "MyRentDue\\App.xaml",
@@ -315,8 +343,11 @@
               "RelativeToolTip": "MyRentDue\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-29T08:37:02.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T08:37:02.298Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         },

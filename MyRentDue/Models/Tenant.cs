@@ -24,5 +24,9 @@ namespace MyRentDue.Models
         public string FullName => $"{FirstName}{LastName}".Trim();
 
         public string? Phone { get; internal set; }
+
+        public string Address { get; set; }
+        public string ProfileImagePath { get; set; }
+        public decimal AmountPaid { get; set; }
     }
 }
