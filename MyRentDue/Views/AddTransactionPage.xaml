@@ -7,8 +7,8 @@ Title="Add Transaction">
         <VerticalStackLayout Padding="16" Spacing="12">
             <Frame Padding="16" CornerRadius="18" HasShadow="True">
                 <VerticalStackLayout Spacing="10">
-                    <Label Text="Select Tenant" FontSize="18" FontAttributes="Bold"/>
-                    <Picker x:Name="TenantPicker" Title="Choose tenant"/>
+                    <Label x:Name="TenantLabelHeader" Text="Select Tenant" FontSize="18" FontAttributes="Bold"/>
+                    <Picker x:Name="TenantPicker" Title="Choose tenant" />
                 </VerticalStackLayout>
             </Frame>
 
@@ -25,7 +25,10 @@ Title="Add Transaction">
             </Frame>
 
 
-            <Button Text="Save Transaction" Clicked="OnSaveTransactionClicked"/>
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                <Button x:Name="SaveButton" Text="Save Transaction" Clicked="OnSaveTransactionClicked"/>
+                <Button x:Name="DeleteButton" Text="Delete" Clicked="OnDeleteClicked" IsVisible="False" BackgroundColor="Tomato"/>
+            </HorizontalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

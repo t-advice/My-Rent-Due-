@@ -61,5 +61,19 @@ public class MyRentDueDatabase
                          .OrderByDescending(t => t.Date)
                          .ToListAsync();
     }
+
+    // Get a single transaction by id
+    public async Task<PaymentTransaction?> GetTransactionByIdAsync(int id)
+    {
+        await Init();
+        return await _db!.Table<PaymentTransaction>().Where(t => t.Id == id).FirstOrDefaultAsync();
+    }
+
+    // Delete a transaction
+    public async Task DeleteTransactionAsync(PaymentTransaction tx)
+    {
+        await Init();
+        await _db!.DeleteAsync(tx);
+    }
 }
 

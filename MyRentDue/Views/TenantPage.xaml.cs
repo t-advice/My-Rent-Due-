@@ -22,14 +22,22 @@ public partial class TenantPage : ContentPage
     {
         var tenants = await App.Database.GetTenantsAsync();
 
-        var list = tenants.Select(t => new TenantView
+        var list = tenants.Select(t =>
         {
-            Id = t.Id,
-            
-            FullName = $"{t.FirstName} {t.LastName}",
-            Email = t.Email,
-            RentDisplay = $"R {t.RentPerMonth:F2} / mo",
-            PaymentStatus = t.IsPaid ? "Paid" : "Unpaid"
+            // calculate remaining rent using AmountPaid
+            var remaining = t.RentPerMonth - t.AmountPaid;
+            if (remaining < 0) remaining = 0;
+
+            return new TenantView
+            {
+                Id = t.Id,
+                FullName = $"{t.FirstName} {t.LastName}",
+                Email = t.Email,
+                RentDisplay = $"R {remaining:F2} remaining",
+                PaymentStatus = t.IsPaid ? "Paid" : "Unpaid",
+                IsPaid = t.IsPaid,
+                RentPerMonth = t.RentPerMonth
+            };
         }).ToList();
 
         TenantsList.ItemsSource = list;
@@ -37,7 +45,22 @@ public partial class TenantPage : ContentPage
 
     private async void OnAddTenantClicked(object sender, EventArgs e)
     {
-        // Navigate to AddTenantPage (stub for now)
         await Shell.Current.GoToAsync(nameof(AddTenantPage));
+    }
+
+    // Navigate to details when a tenant is selected
+    private async void OnTenantSelected(object sender, SelectionChangedEventArgs e)
+    {
+        if (e.CurrentSelection == null || e.CurrentSelection.Count == 0)
+            return;
+
+        if (e.CurrentSelection[0] is TenantView tv)
+        {
+            // navigate to TenantDetailsPage and pass tenant id as query parameter
+            await Shell.Current.GoToAsync($"{nameof(TenantDetailsPage)}?tenantId={tv.Id}");
+        }
+
+        // clear selection so tapping the same item later still triggers selection
+        ((CollectionView)sender).SelectedItem = null;
     }
 }

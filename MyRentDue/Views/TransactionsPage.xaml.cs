@@ -2,7 +2,7 @@ using MyRentDue.Models;
 using MyRentDue.Views;
 using System.Collections.Generic;
 using System;
-
+using System.Linq;
 
 
 namespace MyRentDue.Views;
@@ -50,5 +50,19 @@ public partial class TransactionsPage : ContentPage
     private async void OnAddClicked(object sender, EventArgs e)
     {
         await Shell.Current.GoToAsync(nameof(AddTransactionPage));
+    }
+
+    private async void OnTransactionSelected(object sender, SelectionChangedEventArgs e)
+    {
+        if (e.CurrentSelection == null || e.CurrentSelection.Count == 0)
+            return;
+
+        if (e.CurrentSelection[0] is TransactionView tv)
+        {
+            // Navigate to AddTransactionPage in edit mode
+            await Shell.Current.GoToAsync($"{nameof(AddTransactionPage)}?transactionId={tv.Id}");
+        }
+
+        ((CollectionView)sender).SelectedItem = null;
     }
 }

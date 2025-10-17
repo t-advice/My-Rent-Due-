@@ -16,7 +16,7 @@ Title="Transactions">
 
 
         <!-- List -->
-        <CollectionView Grid.Row="1" x:Name="TransactionsList" Margin="0,12,0,0" SelectionMode="None">
+        <CollectionView Grid.Row="1" x:Name="TransactionsList" Margin="0,12,0,0" SelectionMode="Single" SelectionChanged="OnTransactionSelected">
             <CollectionView.EmptyView>
                 <VerticalStackLayout Padding="24" Spacing="8" HorizontalOptions="Center" VerticalOptions="Center">
                     <Label Text="No transactions yet" FontSize="18"/>

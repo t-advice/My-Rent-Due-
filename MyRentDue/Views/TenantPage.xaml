@@ -25,7 +25,11 @@
         </Frame>
 
         <!-- Tenants List -->
-        <CollectionView x:Name="TenantsList" Grid.Row="1" Margin="0,12,0,0" SelectionMode="None">
+        <CollectionView x:Name="TenantsList"
+                        Grid.Row="1"
+                        Margin="0,12,0,0"
+                        SelectionMode="Single"
+                        SelectionChanged="OnTenantSelected">
             <CollectionView.EmptyView>
                 <VerticalStackLayout Padding="24" Spacing="8" HorizontalOptions="Center" VerticalOptions="Center">
                     <Label Text="No tenants yet" FontSize="18"/>
@@ -41,8 +45,9 @@
                             <Label Grid.Row="1" Text="{Binding Email}" Opacity="0.7"/>
 
                             <VerticalStackLayout Grid.Column="1" Spacing="2" HorizontalOptions="End" VerticalOptions="Center">
-                                <Label Text="{Binding RentDisplay}"/>
-                                
+                                <!-- RentDisplay now shows remaining amount -->
+                                <Label Text="{Binding RentDisplay}" HorizontalTextAlignment="End"/>
+                                <Label Text="{Binding PaymentStatus}" Opacity="0.7" HorizontalTextAlignment="End"/>
                             </VerticalStackLayout>
                         </Grid>
                     </Frame>
