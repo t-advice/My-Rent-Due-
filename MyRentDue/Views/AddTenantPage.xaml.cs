@@ -1,7 +1,6 @@
 using Microsoft.Maui.Controls;
 using MyRentDue.Models;
 using MyRentDue.Services;
-using Microsoft.Maui.Controls;
 using MyRentDue.ViewModels;
 
 namespace MyRentDue.Views;
