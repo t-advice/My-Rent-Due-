@@ -15,6 +15,15 @@ public class TenantView
     public string PaymentStatus { get; set; } = string.Empty;
     public object RentPerMonth { get; internal set; }
     public bool IsPaid { get; internal set; }
+
+    /// <summary>
+    /// Updates the payment status based on amount paid vs rent due
+    /// </summary>
+    public void UpdatePaymentStatus(decimal amountPaid, decimal rentPerMonth)
+    {
+        IsPaid = amountPaid >= rentPerMonth;
+        PaymentStatus = IsPaid ? "Paid" : "Unpaid";
+    }
 }
 
 

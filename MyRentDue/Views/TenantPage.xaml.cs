@@ -28,16 +28,20 @@ public partial class TenantPage : ContentPage
             var remaining = t.RentPerMonth - t.AmountPaid;
             if (remaining < 0) remaining = 0;
 
-            return new TenantView
+            var tenantView = new TenantView
             {
                 Id = t.Id,
                 FullName = $"{t.FirstName} {t.LastName}",
                 Email = t.Email,
                 RentDisplay = $"R {remaining:F2} remaining",
-                PaymentStatus = t.IsPaid ? "Paid" : "Unpaid",
                 IsPaid = t.IsPaid,
                 RentPerMonth = t.RentPerMonth
             };
+
+            // Update payment status based on amount paid vs rent due
+            tenantView.UpdatePaymentStatus(t.AmountPaid, t.RentPerMonth);
+
+            return tenantView;
         }).ToList();
 
         TenantsList.ItemsSource = list;
