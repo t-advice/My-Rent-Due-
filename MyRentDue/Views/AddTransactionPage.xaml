@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 x:Class="MyRentDue.Views.AddTransactionPage"
-Title="Add Transaction">
+Title="Add New Transaction">
     <ScrollView>
         <VerticalStackLayout Padding="16" Spacing="12">
             <Frame Padding="16" CornerRadius="18" HasShadow="True">
@@ -15,7 +15,7 @@ Title="Add Transaction">
 
             <Frame Padding="16" CornerRadius="18" HasShadow="True">
                 <VerticalStackLayout Spacing="10">
-                    <Label Text="Payment details" FontSize="18" FontAttributes="Bold"/>
+                    <Label Text="Payment Details" FontSize="18" FontAttributes="Bold"/>
 
 
                     <Entry x:Name="AmountEntry" Placeholder="Amount" Keyboard="Numeric"/>
