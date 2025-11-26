@@ -10,8 +10,8 @@
         <Frame Grid.Row="0" Padding="16" CornerRadius="18" HasShadow="True">
             <Grid ColumnDefinitions="*,Auto" RowDefinitions="Auto">
                 <VerticalStackLayout Spacing="2">
-                    <Label Text="My Rent Due" FontSize="22" FontAttributes="Bold"/>
-                    <Label Text="Manage tenants &amp; payments" Opacity="0.7"/>
+                    <Label Text="My Installments Due" FontSize="22" FontAttributes="Bold"/>
+                    <Label Text="Manage payments " Opacity="0.7"/>
                 </VerticalStackLayout>
 
                 <Button Grid.Column="1"
@@ -21,6 +21,7 @@
                         TextColor="Black"
                         FontAttributes="Bold"
                         CornerRadius="3"/>
+                
             </Grid>
         </Frame>
 
